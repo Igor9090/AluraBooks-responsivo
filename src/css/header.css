@@ -20,6 +20,39 @@
     align-items: center;
 }
 
+.conteiner__botao{
+    display: none;
+}
+
 .conteiner_imagem {
     padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 87px;
+    width: 60vw;
+}
+
+.conteiner__botao:checked ~ .lista-menu{
+    display: block;
+}
+
+.lista-menu__titulo, .lista-menu__item{
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.lista-menu__link{
+    background: var(--azul-degrade);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
 }
