@@ -1,0 +1,8 @@
+.carrossel__titulo {
+  color: var(--laranja);
+  background-color: var(--branco);
+  text-align: center;
+  text-transform: uppercase;
+  font: 700 18px "Poppins";
+  padding: 1em 0 0.5em 0;
+}
