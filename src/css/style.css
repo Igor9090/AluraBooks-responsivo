@@ -15,6 +15,7 @@
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --azul: #002f52;
     --fonte: 'Poppins', sans-serif;
+    --fonte02: 'Josefin Sans' , sans-serif;
 
 
 }
@@ -25,3 +26,4 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
+
