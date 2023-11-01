@@ -113,7 +113,7 @@
         </section>
     
 
-<section class="carrosel">
+    <section class="carrosel">
         <h2 class="carrossel__titulo">Mais Vendidos</h2>
 
         <div class="swiper">
@@ -133,23 +133,29 @@
         <div class="swiper-button-next"></div>
 
         <div class="card">
-            <div class="card_descrição">
+            <!-- 1º linha -->
+            <div class="card__descrição">
+                <!-- 1º coluna -->
                 <div class="descrição">
-                    <h3 class="descrição__titulo">★★★★★</h3>
-                    <h3 class="descrição__titulo">Autora do mês</h3>
+                    <img src="src/img/estrelinhas.svg" alt="Nota 5 Estrelas">
+                    <h3 class="descrição__titulo">Autora do Mês</h3>
                     <h2 class="descrição__titulo-livro">Juliana Agarikov</h2>
-                    <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                    <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                </div>
+                <!-- 2º coluna -->
+                <img src="src/img/Escritora.svg" class="descrição__imagem">
             </div>
-            <img src="src/img/Perfil-escritora 1.svg" alt="Juliana Agarikov" class="descrição__imagem">
-        </div>
 
-        <div class="card__botões">
-            <ul class="botões">
-                <li class="botões__item"><img src="src/img/Favoritos.svg" alt="favoritar livro"></li>
-                <li class="botões__item"><img src="src/img/Compras.svg" alt="adicionar ao carrinho"></li>
-            </ul>
-    
-            <a href="#" class="botões__ancora">Saiba mais</a>
+            <!-- 2º linha -->
+            <div class="card__botões">
+                <!-- 1º coluna -->
+                <ul class="botões">
+                    <li class="botões__item"><img src="src/img/Favoritos.svg" alt="Favoritar livro"></li>
+                    <li class="botões__item"><img src="src/img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                </ul>
+                <!-- 2º coluna -->
+                <a href="#" class="botões__ancora">Saiba mais</a>
+            </div>
         </div>
     </section>
 
@@ -163,12 +169,15 @@
                 <li class="topico__item"><a href="#" class="topico__link">HTML & CSS</a></li>
                 <li class="topico__item"><a href="#" class="topico__link">Python</a></li>
                 <li class="topico__item"><a href="#" class="topico__link">OO</a></li>
-                <li class="topico__item"><a href="#" class="topico__link">java</a></li> 
+                <li class="topico__item"><a href="#" class="topico__link">java</a></li>
+            </ul> 
     </section>
 
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>  
         <input type="email" placeholder="Cadestre seu E-mail" class="contato__email">
     </section>
 
