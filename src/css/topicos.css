@@ -35,7 +35,8 @@
   }
 
   .topico__link:hover {
-    background-color: var(--laranja-escuro);
+    background-color: var(--branco);
+    color: var(--laranja);
     transition: 0.5s;
   }
 
